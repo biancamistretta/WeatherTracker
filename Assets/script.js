@@ -41,4 +41,4 @@ function displayWeatherData(data) {
         <p>Humidity: ${humidity}%</p>
         <p>Wind Speed: ${windSpeed} m/s</p>
     `;
-}
+} 
