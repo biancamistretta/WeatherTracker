@@ -1,22 +1,58 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f0f0f0;
 }
 
 #app {
-    max-width: 800px;
+    max-width: 600px;
     margin: 20px auto;
     padding: 20px;
+    background-color: #fff;
     border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 form {
     margin-bottom: 20px;
 }
 
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
 #current-weather,
 #forecast,
 #search-history {
     margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+img {
+    max-width: 50px;
+    max-height: 50px;
 }
