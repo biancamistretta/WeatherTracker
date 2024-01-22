@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#app {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+#current-weather,
+#forecast,
+#search-history {
+    margin-bottom: 20px;
+}
